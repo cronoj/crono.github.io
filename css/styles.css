@@ -312,7 +312,16 @@ main hr {
 .matching-text p {
   border-bottom: double 5px #330000;
 }
+.matching-site img {
+  width: 300px;
+  height: auto;
+  border-radius: 50%;
+}
 
+.matching-site img:hover{
+  cursor: pointer;
+  opacity: .9;
+}
 .jigyou {
   width: 30%
 } 
